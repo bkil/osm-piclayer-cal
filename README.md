@@ -48,7 +48,7 @@ Windows használatakor töltsd le és telepítsd a következő programokat:
 1. Klónozd a git tárolót. A tároló tartalmazza a kalibrációs adatokat, de a forrásfájlokat nem.
 
    ```
-   git clone osm-piclayer-cal
+   git clone https://codeberg.org/urbalazs/osm-piclayer-cal.git
    ```
 
 2. Nyisd meg a kívánt település mappáját, és kövest a `README.md` fájlban leírt utasításokat a forrásfájlok letöltéséhez és feldolgozásához.
