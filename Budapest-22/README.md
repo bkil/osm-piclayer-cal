@@ -1,8 +1,8 @@
 # Budapest XXII. kerület
 
-Budafok-Tétény [helyi építési szabályzatának](https://budafokteteny.hu/ugyintezes/foepiteszi-es-varosrendezesi-iroda#%C3%BAj%20k%C3%A9sz) melléklete tartalmazza az utakat, a telekhatárokat, az épületeket és a házszámokat is. Ha be szeretnéd tölteni a JOSM-be, akkor futtasd le a következő parancsokat.
+Budafok-Tétény [kerületi építési szabályzatának](https://budafokteteny.hu/ugyintezes/foepiteszi-es-varosrendezesi-iroda#%C3%BAj%20k%C3%A9sz) szabályozási terve tartalmazza az utakat, a telekhatárokat és az épületeket is. Ha be szeretnéd tölteni a JOSM-be, akkor futtasd le a következő parancsokat.
 
-Töltsd le a szabályozási terveket.
+Töltsd le a szabályozási terveket. Körülbelül 242 MB kerül letöltésre.
 
 ```
 wget https://budafokteteny.hu/uploads/files/1525423287.jpg -O Szelvenyezes.jpg
@@ -20,7 +20,7 @@ wget https://budafokteteny.hu/uploads/files/1525423221.jpg -O SZ11.jpg
 wget https://budafokteteny.hu/uploads/files/1525423259.jpg -O SZ12.jpg
 ```
 
-Alakítsd át a PDF-fájlokat JPG-fájlokká.
+Alakítsd át a PDF-fájlokat JPG-fájlokká. Az eredményül kapott képek mérete körülbelül 57 MB.
 
 ```
 gs -sDEVICE=jpeg -r150 -o SZ01.jpg SZ01.pdf
@@ -32,6 +32,8 @@ gs -sDEVICE=jpeg -r150 -o SZ08.jpg SZ08.pdf
 gs -sDEVICE=jpeg -r150 -o SZ10.jpg SZ10.pdf
 ```
 
+Nyisd meg a képfájlokat a JOSM szerkesztővel a *Légi felvétel* → *Új kép réteg fájlból…* menüpont használatával.
+
 
 # Térképet tartalmazó hírek
 
@@ -42,7 +44,7 @@ A következő hírek térképmásolatot vagy térképrajzot is tartalmaznak.
 
 A Dukát utcai útépítés miatt oszlopáthelyezés szükséges, ami következtében az Elmű szünetelteti szolgáltatását a Dukát utca környékén néhány utcában. Forrás: [Budafok-Tétény Önkormányzatának hivatalos hírlevele](https://budafokteteny.hu/hir/aramszunet-a-dukat-utcaban-es-kornyeken).
 
-A térképmelléklet közvetlenül a hírből vagy a következő parancs használatával tölthető le.
+A térképmelléklet közvetlenül a hírből vagy a következő parancs használatával tölthető le. A fájl mérete körülbelül 470 KB.
 
 ```
 wget https://budafokteteny.hu/uploads/files/2017/sajto/elmu.PNG -O dukat-utca.png
