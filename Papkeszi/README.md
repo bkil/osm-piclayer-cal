@@ -2,7 +2,7 @@
 
 Papkeszi [belterületi szabályozási terve](https://papkeszi.hu/onkormanyzat/telepulesrendezes/) tartalmazza az utakat, a telekhatárokat, az épületeket és a házszámokat is. Ha be szeretnéd tölteni a JOSM-be, akkor futtasd le a következő parancsokat.
 
-1. Töltsd le a szabályozási terveket. Körülbelül 17 MB kerül letöltésre.
+Töltsd le a szabályozási terveket. Körülbelül 17 MB kerül letöltésre.
 
 ```
 wget https://papkeszi.hu/wp-content/themes/Glorius/doksik/Letoltes/telepulesrendezes/belter_1.pdf -O Papkeszi-1.pdf
@@ -16,7 +16,7 @@ wget https://papkeszi.hu/wp-content/themes/Glorius/doksik/Letoltes/telepulesrend
 wget https://papkeszi.hu/wp-content/themes/Glorius/doksik/Letoltes/telepulesrendezes/belter.jpg -O Szelvenyezes.jpg
 ```
 
-2. Alakítsd át a PDF-fájlokat JPG-fájlokká. Az eredményül kapott képek mérete körülbelül 5,1 MB.
+Alakítsd át a PDF-fájlokat JPG-fájlokká. Az eredményül kapott képek mérete körülbelül 5,1 MB.
 
 ```
 gs -sDEVICE=jpeg -r150 -o Papkeszi-1.jpg Papkeszi-1.pdf
