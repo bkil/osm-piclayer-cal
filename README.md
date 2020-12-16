@@ -59,4 +59,4 @@ Windows használatakor töltsd le és telepítsd a következő programokat:
 
 A git tároló csak a kalibrációs adatokat tartalmazza a georeferáláshoz, ami ODbL licenc alatt van közzétéve. A településrendezési terveket és a helyi vagy kerületi építési szabályzatokat neked kell letölteni az említett weboldalakról.
 
-Az átrajzolás nem pixelre pontosan történik, így a használatkor nem sértünk adatbázisjogot. A jogszabályok és rendeletek szövege – beleértve a településrendezési terveket és a helyi vagy kerületi építési szabályzatokat is – bárki számára elérhető és használható.
+Az így megjelenített településrendezési tervekről nem megengedett adatbázisjogi vagy szerzői jogi védelem alatt álló elemek átvétele. Azaz nem használható OpenStreetMap adatforrásként, csak más szabályosan elérhető adatforrás keresztellenőrzésre használható - például légifelvételek, GPS nyomvonalak, mozgóképes- vagy fotódokumentáció, saját ismeretek, jegyzetek, hibabejelentések vagy adott POI saját publikációja.
