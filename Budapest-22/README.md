@@ -37,10 +37,10 @@ Nyisd meg a képfájlokat a JOSM szerkesztővel a *Légi felvétel* → *Új ké
 
 # Térképet tartalmazó hírek
 
-A következő hírek térképmásolatot vagy térképrajzot is tartalmaznak.
+A következő weboldalak és hírek térképmásolatot, térképrajzot, látványterveket, alaprajzokat és helyszínrajzokat is tartalmaznak. A letöltésük után a fent ismertetett módon lehet megnyitni azokat a JOSM szerkesztővel.
 
 
-## Áramszünet a Dukát utcában és környékén
+## Dukát utca és környéke
 
 A Dukát utcai útépítés miatt oszlopáthelyezés szükséges, ami következtében az Elmű szünetelteti szolgáltatását a Dukát utca környékén néhány utcában. Forrás: [Budafok-Tétény Önkormányzatának hivatalos hírlevele](https://budafokteteny.hu/hir/aramszunet-a-dukat-utcaban-es-kornyeken).
 
@@ -48,4 +48,37 @@ A térképmelléklet közvetlenül a hírből vagy a következő parancs haszná
 
 ```
 wget https://budafokteteny.hu/uploads/files/2017/sajto/elmu.PNG -O dukat-utca.png
+```
+
+
+## Piactér
+
+Budafok-Tétény Önkormányzatának hivatalos hírlevelében megjelent [Nyárra készül a Piactér](https://budafokteteny.hu/hir/nyarra-keszul-a-piacter) cikkben részletes helyszínrajz található a Piactérről.
+
+A helyszínrajz közvetlenül a hírből vagy a következő parancs használatával tölthető le. A fájl mérete körülbelül 408 KB.
+
+```
+wget https://budafokteteny.hu/uploads/images/galeria/napvitorlak/K%C3%A9pkiv%C3%A1g%C3%A1s2.PNG -O piacter.png
+```
+
+
+## Szent Flórián tér
+
+A Szent Flórián teret és a Szentháromság teret 2013-ban felújították. A [Zöldkalauz](https://zoldkalauz.hu/szentharomsag-ter-szent-florian-ter) honlapján részletes alaprajz található a térről.
+
+Az alaprajz közvetlenül a honlapról vagy a következő parancs használatával tölthető le. A fájl mérete körülbelül 103 KB.
+
+```
+wget https://zoldkalauz.hu/files/images/420/nt-terv.jpg -O szent-florian-ter.jpg
+```
+
+
+## Szent István tér
+
+Az S-Tér Kft. [referenciái](http://www.s-ter.hu/hu/referenciak/kozter-kozpark/szent-istvan-ter-es-mozi-elotti-ter) között megtalálhatók a Szent István tér felújításához kapcsolódó tervek is.
+
+A látványterv közvetlenül a honlapról vagy a következő parancs használatával tölthető le. A fájl mérete körülbelül 32 MB.
+
+```
+wget http://www.s-ter.hu/sites/default/files/plans/szent-istvan-ter-es-mozi-elotti-ter-megujitasa/t2017pszentistvanparkmodszinaesalaprajz190916.png -O szent-istvan-ter.png
 ```
