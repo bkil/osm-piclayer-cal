@@ -51,6 +51,17 @@ wget https://budafokteteny.hu/uploads/files/2017/sajto/elmu.PNG -O dukat-utca.pn
 ```
 
 
+## József Attila utcai lakótelep
+
+A József Attila (kísérleti) lakótelep köztereinek megújítási javaslata szerepel [ebben az önkormányzati hírben](https://www.budafokteteny.hu/hir/megujulhatnak-a-jozsef-attila-kiserleti-lakotelep-kozterei). A cikk mellékleteként megtalálható egy részletes helyszínrajz is. Fontos azonban figyelembe venni, hogy ez csak egy terv. A megvalósult fejlesztés eltérő lehet, ezért érdemes összevetni az ortofotókkal.
+
+A helyszínrajz közvetlenül a hírből vagy a következő parancs használatával tölthető le. A fájl mérete körülbelül 480 KB.
+
+```
+wget https://www.budafokteteny.hu/uploads/images/galeria/jaltp2/JA_LTP_szinesterv.jpg -O jozsef-attila-lakotelep.jpg
+```
+
+
 ## Piactér
 
 Budafok-Tétény Önkormányzatának hivatalos hírlevelében megjelent [Nyárra készül a Piactér](https://budafokteteny.hu/hir/nyarra-keszul-a-piacter) cikkben részletes helyszínrajz található a Piactérről.
