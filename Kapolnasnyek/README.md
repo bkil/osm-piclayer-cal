@@ -10,4 +10,8 @@ gs \
   -r150 \
   -o "646_rendelet-1-2-melleklet.jpeg" \
   "646_rendelet-1-2-melleklet.pdf"
+
+cp -a \
+  "646_rendelet-1-2-melleklet.jpeg" \
+  "646_rendelet-1-2-melleklet-Pettend.jpeg"
 ```
