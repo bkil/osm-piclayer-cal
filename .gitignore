@@ -2,5 +2,7 @@
 *.jpeg
 *.jpg
 *.pdf
+*.PDF
 *.png
 *.docx
+cache
