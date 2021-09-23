@@ -26,3 +26,14 @@ gs -sDEVICE=jpeg -r150 -o SZ06.jpg SZ06.pdf
 ```
 
 Nyisd meg a képfájlokat a JOSM szerkesztővel a *Légi felvétel* → *Új kép réteg fájlból…* menüpont használatával.
+
+
+## Dr. Kiss Ödön Orvosi Rendelő
+
+Balatonszemes honlapjára fel lett töltve az orvosi rendelő [alaprajza](https://www.balatonszemes.hu/wp-content/uploads/images/alaprajz1.jpg).
+
+Az alaprajz a következő parancs használatával tölthető le. A fájl mérete körülbelül 2,9 MB.
+
+```
+wget "https://www.balatonszemes.hu/wp-content/uploads/images/alaprajz1.jpg" -O orvosi-rendelo.jpg
+```
