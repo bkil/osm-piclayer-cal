@@ -62,7 +62,7 @@ wget https://www.budafokteteny.hu/uploads/images/galeria/jaltp2/JA_LTP_szinester
 ```
 
 
-## Piactér
+## Piactér és piacépület
 
 Budafok-Tétény Önkormányzatának hivatalos hírlevelében megjelent [Nyárra készül a Piactér](https://budafokteteny.hu/hir/nyarra-keszul-a-piacter) cikkben részletes helyszínrajz található a Piactérről.
 
@@ -70,6 +70,14 @@ A helyszínrajz közvetlenül a hírből vagy a következő parancs használatá
 
 ```
 wget https://budafokteteny.hu/uploads/images/galeria/napvitorlak/K%C3%A9pkiv%C3%A1g%C3%A1s2.PNG -O piacter.png
+```
+
+Az [Építészfórumon](https://epiteszforum.hu/budafok-uj-modern-piaca) megjelent egy cikk Budafok új, modern piacáról, amelyben megtalálható a piac épületének alaprajza.
+
+Az alaprajz a cikkhez tartozó galériából vagy a következő parancs használatával tölthető le. A fájl mérete körülbelül 119 KB.
+
+```
+wget https://epiteszforum.hu/uploads/images/2015/12/1920_1146-alaprajz.jpg -O piacepulet.jpg
 ```
 
 
