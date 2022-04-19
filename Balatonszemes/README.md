@@ -37,3 +37,20 @@ Az alaprajz a következő parancs használatával tölthető le. A fájl mérete
 ```
 wget "https://www.balatonszemes.hu/wp-content/uploads/images/alaprajz1.jpg" -O orvosi-rendelo.jpg
 ```
+
+
+## Berzsenyi utcai szabadstrand
+
+Balatonszemes honlapján a Berzsenyi utcai szabadstrand fejlesztéséről szóló [hír](https://www.balatonszemes.hu/1355-2/) mellékletében található egy 1:500 méretű [helyszínrajz](https://www.balatonszemes.hu/wp-content/uploads/2020/10/Balatonszemes-strand-E%CC%81PU%CC%88LET_E%CC%81-0-Helyszi%CC%81nrajz-M1_500.pdf).
+
+Töltsd le a hírben lévő helyszínrajzot. A fájl mérete körülbelül 830 kB.
+
+```
+wget "https://www.balatonszemes.hu/wp-content/uploads/2020/10/Balatonszemes-strand-E%CC%81PU%CC%88LET_E%CC%81-0-Helyszi%CC%81nrajz-M1_500.pdf" -O berzsenyi-strand.pdf
+```
+
+Alakítsd át a PDF-fájlt JPG-fájllá. Az eredményül kapott kép mérete körülbelül 1,8 MB.
+
+```
+gs -sDEVICE=jpeg -r150 -o berzsenyi-strand.jpg berzsenyi-strand.pdf
+```
