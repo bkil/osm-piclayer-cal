@@ -1,8 +1,10 @@
 *.bmp
+*.docx
 *.jpeg
 *.jpg
 *.pdf
 *.PDF
 *.png
 *.docx
+*.zip
 cache
